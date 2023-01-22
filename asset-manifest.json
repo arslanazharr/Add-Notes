@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Add-Notes/static/css/main.d36ee45c.css",
+    "main.js": "/Add-Notes/static/js/main.f296004c.js",
+    "index.html": "/Add-Notes/index.html",
+    "main.d36ee45c.css.map": "/Add-Notes/static/css/main.d36ee45c.css.map",
+    "main.f296004c.js.map": "/Add-Notes/static/js/main.f296004c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d36ee45c.css",
+    "static/js/main.f296004c.js"
+  ]
+}
