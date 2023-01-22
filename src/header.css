@@ -1,0 +1,15 @@
+.header {
+  width: auto;
+  background-color: #f5930a;
+  padding: 10px;
+  display: flex;
+}
+
+.header h1 {
+  color: white;
+}
+.header .icon {
+  height: 40px;
+  width: 70px;
+  color: white;
+}

@@ -1,0 +1,13 @@
+.main-note {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  margin-top: 50px;
+  display: inline-grid;
+}
+
+.main-note .button {
+  width: 20px;
+}
