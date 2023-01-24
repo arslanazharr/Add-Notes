@@ -1,4 +1,10 @@
 footer {
   text-align: center;
-  margin: 630px 0 0 0;
+  position: fixed;
+  top: 95%;
+}
+
+.outer-div {
+  display: flex;
+  justify-content: center;
 }

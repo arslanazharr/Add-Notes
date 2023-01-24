@@ -6,9 +6,11 @@ const Footer = () => {
 
   return (
     <>
-      <footer>
-        <p className="copyright">All rights reserved &copy; {year} </p>
-      </footer>
+      <div className="outer-div">
+        <footer>
+          <p className="copyright">All rights reserved &copy; {year} </p>
+        </footer>
+      </div>
     </>
   );
 };

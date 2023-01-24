@@ -3,7 +3,7 @@ import "./addnote.css";
 import Button from "@mui/material/Button";
 import AddIcon from "@mui/icons-material/Add";
 
-const AddNote = () => {
+const AddNote = (props) => {
   const [note, setNote] = useState({
     title: "",
     content: "",
@@ -16,6 +16,14 @@ const AddNote = () => {
         ...prevData,
         [name]: value,
       };
+    });
+  };
+
+  const clickEvent = () => {
+    props.passNote(note);
+    setNote({
+      title: "",
+      content: "",
     });
   };
   return (
@@ -37,8 +45,8 @@ const AddNote = () => {
             onChange={inputEvent}
             placeholder="Type here..."
           />
-          <Button className="button">
-            <AddIcon />
+          <Button className="button" onClick={clickEvent}>
+            <AddIcon className="icon" />
           </Button>
         </form>
       </div>

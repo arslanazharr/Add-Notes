@@ -1,13 +1,68 @@
 .main-note {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 200px;
+  margin: 80px auto;
+  box-shadow: 1px 0px 10px 0px rgb(0 0 0 / 32%);
+  border-radius: 15px;
 }
 
 form {
   margin-top: 50px;
   display: inline-grid;
 }
+.main-note input {
+  height: 50px;
+  position: relative;
+  bottom: 40px;
+  right: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main-note textarea {
+  position: relative;
+  bottom: 40px;
+  right: 40px;
+  resize: none;
+  height: 115px;
+}
 
 .main-note .button {
-  width: 20px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 43px;
+  left: 265px;
+  background: #f5930a;
+  width: 60px;
+  height: 60px;
+}
+
+.button .icon {
+  width: 35px;
+  height: auto;
+  color: white;
+}
+
+.main-note .button:hover {
+  background: #f5930a;
+  box-shadow: 1px 0px 5px 2px rgb(0 0 0 / 32%);
+  transition: all 0.3s;
+}
+
+.main-note input,
+textarea {
+  border: 0px;
+}
+
+.main-note input::placeholder {
+  font-size: 20px;
+}
+
+.main-note input:focus {
+  outline: none;
+}
+
+.main-note textarea:focus {
+  outline: none;
 }
