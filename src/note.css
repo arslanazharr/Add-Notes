@@ -1,0 +1,47 @@
+.note {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  width: 240px;
+  height: 140px;
+  margin-left: 40px;
+  margin-top: 40px;
+  box-shadow: 1px 0px 10px 0px rgb(0 0 0 / 32%);
+  border-radius: 15px;
+}
+
+.note h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.note p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.note .button {
+  border: #d90000;
+  border-radius: 50%;
+  position: relative;
+  bottom: -45px;
+  left: 161px;
+  background: #d90000;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button .del-icon {
+  width: 25px;
+  height: auto;
+  color: white;
+}
+
+.note .button:hover {
+  box-shadow: 1px 0px 5px 2px rgb(0 0 0 / 32%);
+  transition: all 0.3s;
+}

@@ -1,6 +1,7 @@
 import React from "react";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
 import DeleteIcon from "@mui/icons-material/Delete";
+import "./note.css";
 
 const Note = (props) => {
   const deleteNote = () => {
@@ -8,11 +9,14 @@ const Note = (props) => {
   };
   return (
     <>
-      <h1>{props.title}</h1>
-      <p>{props.content}</p>
-      <Button onClick={deleteNote}>
-        <DeleteIcon />
-      </Button>
+      <div className="note">
+        <h1>{props.title}</h1> <hr />
+        <p>{props.content}</p>
+        <button onClick={deleteNote} className="button">
+          {" "}
+          <DeleteIcon className="del-icon" />
+        </button>
+      </div>
     </>
   );
 };
